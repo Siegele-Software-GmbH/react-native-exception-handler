@@ -20,7 +20,7 @@
             android:textStyle="bold"
             android:textColor="#000"
             android:padding="10dp"
-            android:text="Critical Error Occured !"/>
+            android:text="Unerwarteter Fehler !"/>
         <ImageView
             android:tint="#F00"
             android:layout_width="match_parent"
@@ -38,7 +38,7 @@
             android:gravity="center"
             android:textColor="#000"
             android:padding="10dp"
-            android:text="This is embarrassing. We sincerely apologize for this." />
+            android:text="Ein Fehler ist aufgetreten. Sehen Sie den Stacktrace für mehr details." />
         <LinearLayout
             android:layout_width="match_parent"
             android:gravity="bottom"
@@ -49,13 +49,13 @@
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RELAUNCH"/>
+                android:text="NEU STARTEN"/>
             <Button
                 android:id="@+id/eh_quit_button"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="QUIT"/>
+                android:text="SCHLIESSEN"/>
         </LinearLayout>
         <Button
             android:id="@+id/eh_show_details_button"
